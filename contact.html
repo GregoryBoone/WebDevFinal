@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final Project Contact page</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+  </head>
+  <body>
+	<header>
+        <nav>
+          <div class="logo-container">
+            <img class="logo" alt="camping logo" src="images/logo.webp">
+          </div>
+      
+          <div class="navbar">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li class="current"><a href="contact.html">Contact</a></li>
+              <li><a href="references.html">References</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      
+      <main>
+      <form action="#" method="post">
+        <fieldset class="your-details">
+          <legend>Your Details</legend>
+          <div class="inner-form">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required>
+          </div>
+      
+          <div class="inner-form">
+            <label for="email">Email:</label>
+            <input type="email" name="email">
+          </div>
+        </fieldset>
+      
+        <fieldset class="your-review">
+          <legend>Your Review
+          </legend>
+          <p class="form-paragraph">
+            <label for="hear-about">How did you hear about us?</label>
+            <select name="hear-about">
+              <option value="Word of Mouth">Word of Mouth</option>
+              <option value="Google">Google</option>
+              <option value="Website">Website</option>
+            </select>
+          </p>
+      
+          <p class="form-paragraph">
+            <label for="visit-again">Would you visit again?</label>
+      
+            <input type="radio" name="choice" value="yes"><label for="yes">Yes</label>
+            <input type="radio" name="choice" value="no"><label for="no">No</label>
+            <input type="radio" name="choice" value="maybe"><label for="maybe">Maybe</label>
+          </p>
+      
+          <p class="form-paragraph">
+            <label for="comments">Comments:</label>
+            <br>
+            <textarea rows="4" cols="40" id="comments">
+            </textarea>
+          </p>
+      
+          <p class="form-paragraph">
+            <input type="checkbox" name="sign-up">
+            <label for="sign-up">Sign me up for email updates</label>
+          </p>
+      
+            <p class="form-paragraph">
+              <input id="submit" type="submit" value="Submit Review">
+          </p>
+        </fieldset>
+      </form>
+      </main>
+      
+      <footer>
+        <p>Made with HTML, CSS and <span>❤</span>. 2023 &copy Gregory Boone</p>
+      </footer>
+  </body>
+</html>

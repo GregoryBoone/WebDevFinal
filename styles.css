@@ -1,0 +1,317 @@
+/*Global*/
+main {
+    background-color: #f7db6a;
+    padding: 10px;
+  }
+  
+  /*Navigation*/
+  
+  .current {
+    color: #e8491d;
+    font-weight: bold;
+  }
+  header {
+    background-color: #f7db6a;
+  }
+  header a:hover {
+    color: #7aa874;
+    font-weight: bold;
+  }
+  hr {
+    border: none;
+    border-top: 3px double #d864a9;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+  }
+  
+  .logo {
+    width: 125px;
+    margin-bottom: 0;
+    border-radius: 50%;
+  }
+  .navbar {
+    float: right;
+    margin-right: 25px;
+    position: relative;
+    bottom: 100px;
+  }
+  .navbar a {
+    color: #d864a9;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 32px;
+    padding: 30px;
+  }
+  .navbar ul {
+    list-style-type: none;
+  }
+  .navbar li {
+    display: inline;
+  }
+  /*Hero Section*/
+  .bg-blurb {
+    background-color: #d864a9;
+    color: #fff;
+    display: inline-block;
+    transform: skew(-10deg) rotate(-10deg);
+    padding: 5px;
+    margin-top: 70px;
+    margin-left: 16%;
+    position: absolute;
+  }
+  
+  .hero {
+    margin: 5% 25%;
+    padding: 20% 50%;
+    border-radius: 30px;
+    background-image: url("https://cdn.dribbble.com/users/2517905/screenshots/15651749/media/e5595b1f647115b711652b8a40f0da90.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #hero-header{
+    padding-top: 30px;
+    text-align: center;
+    color: #d864a9;
+  }
+  .hero-link{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /*Camping Info Section*/
+  .camping-info {
+    display: flex;
+    margin: 15px;
+    background-color: #fff;
+  }
+  
+  .info-blurb {
+    border: solid;
+    border-color: #d864a9;
+    padding: 2%;
+    width: 500px;
+  }
+  
+  .info-blurb h3 {
+    text-align: center;
+  }
+  .info-image{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .info-image-container {
+    border: solid;
+    border-color: #d864a9;
+  }
+  
+  /*Camping Squares*/
+  .camping-squares {
+    display: flex;
+  }
+  .square {
+    border: solid;
+    border-color: lightgray;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px lightgray;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+    width: 33%;
+  }
+
+  .square ol{
+    text-align: left;
+  }
+  .square ul{
+    text-align: left;
+  }
+  
+  /* CSS for button */
+  .button-19 {
+    appearance: button;
+    background-color: #1899d6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter 0.2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .button-19:after {
+    background-clip: padding-box;
+    background-color: #1cb0f6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .button-19:main,
+  .button-19:focus {
+    user-select: auto;
+  }
+  
+  .button-19:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .button-19:disabled {
+    cursor: auto;
+  }
+  /*About*/
+  #about-main{
+    padding-bottom: 25%;
+  }
+  aside{
+    float: right;
+    width: 30%;
+    margin: 10px;
+    background-color: #EBB02D;
+    padding: 10px;
+    
+  }
+
+  
+  /*Events*/
+  .event-image{
+    width: 300px;
+    height: 300px;
+  }
+  .grid-item{
+    padding: 15%;
+    
+  }
+  .parent {
+  margin: 5%;
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  }
+  
+  /*Contact Form*/
+  form{
+    margin: 15%;
+    text-align: center;
+  }
+  .inner-form{
+    padding: 10px;
+  }
+  legend{
+    font-size: 36px;
+  }
+  
+  /*References*/
+  .references-header{
+    padding-top: 30px;
+    margin: 25px;
+    
+  }
+  /*Footer*/
+  footer {
+    text-align: center;
+  }
+  footer span {
+    color: red;
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {...}
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (max-width: 800px) {
+    .event-image{
+    width: 100%;
+    }
+    .parent{
+      display: flex;
+      flex-direction: column;
+  }
+    .square{
+        width: 80%;
+    }
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 999px) {
+    .logo-container{
+      width: 100%;
+      height: 100%;
+    }
+    .hero{
+      margin: 25%;
+    }
+    nav{
+      display: flex;
+      flex-direction: column;
+    }
+    .navbar{
+      width: 100%;
+      height: 100%;
+      padding-top: 100px;
+    }
+    .camping-squares{
+      display: flex;
+      flex-direction: column;
+    }
+    .square{
+        width: 80%;
+    }
+    
+    }
+  }
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (max-width: 992px) {
+    .logo-container{
+      width: 100%;
+      height: 100%;
+    }
+    .hero{
+      margin: 25%;
+    }
+    nav{
+      display: flex;
+      flex-direction: column;
+    }
+    .navbar{
+      width: 100%;
+      height: 100%;
+      padding-top: 100px;
+    }
+  }
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    
+    }
+  
